@@ -9,8 +9,8 @@
 import React from 'react';
 import { Navigation } from '@momo-kits/core';
 import appJson from '../app.json';
-import Welcome from './screens/Welcome';
-// import Main from './screens/Main';
+import Main from './screens/Main';
+import ResultScreen from './screens/Result';
 
 export default class MiniAppStack extends React.Component {
     render() {
@@ -21,7 +21,11 @@ export default class MiniAppStack extends React.Component {
 
         // check deeplink params
         console.log(this.props.params);
+        if (this.props.params && this.props.params.transId) {
+    
+            return <Navigation screen={ResultScreen} params={params} options={{title: "Kết quả thanh toán"}} />;
+        }
 
-        return <Navigation screen={Welcome} params={params} options={options} />;
+        return <Navigation screen={Main} params={params} options={options} />;
     }
 }
