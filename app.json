@@ -1,0 +1,48 @@
+{
+  "appId": "miniapp.pOQ11V0tzrOFzSbrxHEW.parkingpaymentapp",
+  "name": "Thanh toán phí giữ xe",
+  "displayName": "ParkingPaymentApp",
+  "client": {
+    "ios": {
+      "installMode": "IMMEDIATELY",
+      "deploymentTarget": 51
+    },
+    "android": {
+      "installMode": "IMMEDIATELY",
+      "deploymentTarget": 51
+    }
+  },
+  "groupId": "pOQ11V0tzrOFzSbrxHEW",
+  "uploadToken": "U2FsdGVkX1++SoiEqe88T68lIK3SGjEBBZ9AIlRShYmX+96mehBWHxfhO0GGIw5eR/Ec9vu75j701Jj9u677b34j7GWutjPtQBwhJ2wh6ttXMC4hCSczZRsilMiS78yG",
+  "cliToken": "U2FsdGVkX1/SGokBhIQfZa2QaoDYbypkclcuSWfL7szr52SSH+u3NHJ4GnosNPGyzN1tP0Q5aXbvliaX5VHmLixApcmPZtN/EMqRPNI6UqXe0hu1449zeP776Jfd9viT",
+  "configuration_version": 1,
+  "permissions": [
+    {
+      "description": {
+        "vi": "Cho phép ứng dụng truy cập Hình Ảnh",
+        "en": "Allow access Photo"
+      },
+      "permission": "photo"
+    },
+    {
+      "permission": "location",
+      "description": {
+        "vi": "Cho phép ứng dụng truy cập định vị",
+        "en": "Allow access Location"
+      }
+    },
+    {
+      "description": {
+        "en": "Allow access Contact",
+        "vi": "Cho phép ứng dụng truy cập danh bạ"
+      },
+      "permission": "contacts"
+    }
+  ],
+  "support": {
+    "phone": "(028)71022222",
+    "email": "merchant.care@mservice.com.vn"
+  },
+  "bridgeMode": 1,
+  "partnerCode": "MOMOBUKH20230721"
+}
